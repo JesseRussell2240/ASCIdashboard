@@ -7,9 +7,9 @@
     <style>
         body {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            padding: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 10px;
             text-align: center;
         }
 
@@ -18,8 +18,8 @@
         }
 
         div {
-            border: 1px solid #ccc;
-            padding: 15px;
+            border: 2px solid #ccc;
+            padding: 10px;
         }
 
         h2 {
@@ -29,66 +29,104 @@
         .cropped-iframe {
             overflow: hidden;
             position: relative;
-            max-width: 575px;
+            max-width: 349px;
             margin: 5px auto;
-            border: 2px solid #D5CC5A;
+            border: 2px solid #ccc;
             width: 650px;
             height: 150px;
         }
 
-            .cropped-iframe iframe {
-                width: 650px;
-                height: 300px;
-                position: relative;
-                top: 11%; /* Adjust to center the visible portion vertically */
-                left: 20%; /* Adjust to center the visible portion horizontally */
-                transform: translate(-50%, -50%); /* Center the visible portion */
-                border: none;
-            }
+        .cropped-iframe iframe {
+            width: 650px;
+            height: 300px;
+            position: relative;
+            top: 11%; /* Adjust to center the visible portion vertically */
+            left: 20%; /* Adjust to center the visible portion horizontally */
+            transform: translate(-42%, -50%); /* Center the visible portion */
+            border: none;
+        }
+
+        .cropped-iframe-first-set {
+            overflow: hidden;
+            position: relative;
+            max-width: 1200px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 750px;
+            height: 150px;
+        }
+        .cropped-iframe-first-set iframe {
+            overflow: hidden;
+            width: 1200px;
+            height: 300px;
+            position: relative;
+            top: 11%;
+            left: 30%;
+            transform: translate(-36%, -50%);
+            border: none;
+        }
+
+
+
+
     </style>
 </head>
 <body>
-    <h1>ASCI Scoreboards</h1>
 
+    <div><h1>F12</h1></div>
 
-    <div>
-        <h2>F12</h2>
-        <div class="cropped-iframe">
-            <iframe scrolling="no" src="http://172.25.100.80/#!/view/scoreboard" frameborder="0"></iframe>
-        </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.80/#!/view/scoreboard" frameborder="0"></iframe>
     </div>
 
-    <div>
-        <h2>Chm Tips</h2>
-        <div class="cropped-iframe">
-            <iframe scrolling="no" src="http://172.25.100.23/#!/view/scoreboard" frameborder="0"></iframe>
-        </div>
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.80/#!/analyze/tpt" frameborder="0"></iframe>
     </div>
 
-    <div>
-        <h2>SA49</h2>
-        <h2>placeholder/futureuse</h2>
+
+    <div><h1>future use</h1></div>
+
+
+    <div><h1>T23</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.45/#!/view/scoreboard" frameborder="0"></iframe>
     </div>
 
-    <div>
-        <h2>CA76</h2>
-        <div class="cropped-iframe">
-            <iframe scrolling="no" src="http://172.25.100.6/#!/view/scoreboard" frameborder="0"></iframe>
-        </div>
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.45/#!/analyze/tpt" frameborder="0"></iframe>
     </div>
 
-    <div>
-        <h2>IB16</h2>
-        <div class="cropped-iframe">
-            <iframe scrolling="no" src="http://172.25.100.86/#!/view/scoreboard" frameborder="0"></iframe>
-        </div>
+
+    <div><h1>future use</h1></div>
+
+    <div><h1>IB16</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.86/#!/view/scoreboard" frameborder="0"></iframe>
     </div>
 
-    <div>
-        <h2>T23</h2>
-        <div class="cropped-iframe">
-            <iframe scrolling="no" src="http://172.25.100.45/#!/view/scoreboard" frameborder="0"></iframe>
-        </div>
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.86/#!/analyze/tpt" frameborder="0"></iframe>
     </div>
+
+
+    <div><h1>future use</h1></div>
+
+
+    <div><h1>CA76</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.6/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.06/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div><h1>future use</h1></div>
+
 </body>
 </html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3600">
+    <title>My Dashboard</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            grid-column: span 2;
+        }
+
+        div {
+            border: 2px solid #ccc;
+            padding: 10px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .cropped-iframe {
+            overflow: hidden;
+            position: relative;
+            max-width: 349px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 650px;
+            height: 120px;
+        }
+
+            .cropped-iframe iframe {
+                width: 650px;
+                height: 300px;
+                position: relative;
+                top: 11%; /* Adjust to center the visible portion vertically */
+                left: 20%; /* Adjust to center the visible portion horizontally */
+                transform: translate(-42%, -50%); /* Center the visible portion */
+                border: none;
+            }
+
+        .cropped-iframe-first-set {
+            overflow: hidden;
+            position: relative;
+            max-width: 1200px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 750px;
+            height: 120px;
+        }
+
+            .cropped-iframe-first-set iframe {
+                overflow: hidden;
+                width: 1200px;
+                height: 340px;
+                position: relative;
+                top: 15%;
+                left: 30%;
+                transform: translate(-36%, -60%);
+                border: none;
+            }
+
+        .cropped-iframe-second-set {
+            overflow: hidden;
+            position: relative;
+            max-width: 1200px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 150px;
+            height: 120px;
+        }
+
+            .cropped-iframe-second-set iframe {
+                overflow: hidden;
+                width: 1200px;
+                height: 1200px;
+                position: relative;
+                top: 10%;
+                left: -225%;
+                transform: translate(-49%, -68%);
+                border: none;
+            }
+        .cropped-iframe-third-set {
+            
+            position: relative;
+            max-width: 1200px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 750px;
+            height: 120px;
+        }
+
+            .cropped-iframe-third-set iframe {
+                width: 1200px;
+                height: 340px;
+                position: relative;
+                top: 0%;
+                left: 0%;
+                transform: translate(0%, 0%);
+                border: none;
+            }
+    </style>
+</head>
+<body>
+
+    <div><h1>F12</h1></div>
+
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.80/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.80/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+            Past<br>
+            First Shift<br>
+            Second Shift
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        <iframe scrolling="no" src="http://172.25.100.80/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+    </div>
+
+    <div><h1>T23</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.45/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.45/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+            Past<br>
+            First Shift<br>
+            Second Shift
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        <iframe scrolling="no" src="http://172.25.100.45/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+    </div>
+
+
+    <div><h1>IB16</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.86/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.86/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+            Past<br>
+            First Shift<br>
+            Second Shift
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        <iframe scrolling="no" src="http://172.25.100.86/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+    </div>
+
+
+
+    
+    <div><h1>CA76</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.6/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.06/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+            Past<br>
+            First Shift<br>
+            Second Shift
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        <iframe scrolling="no" src="http://172.25.100.06/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+    </div>
+
+    
+    <div><h1>Demo Info From Lab Bench</h1> </div>
+    <div class="cropped-iframe">
+        
+    </div>
+
+
+    <div class="cropped-iframe-third-set">
+        <iframe scrolling="no" src="http://172.25.100.100/usr/viewon/KPI_By_X.shtm" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+          
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        
+    </div>
+
+    
+        <div><h1>Tips</h1> </div>
+    <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.23/#!/view/scoreboard" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-first-set">
+        <iframe scrolling="no" src="http://172.25.100.23/#!/analyze/tpt" frameborder="0"></iframe>
+    </div>
+
+
+    <div class="cropped-iframe-second-set">
+        <h2>
+            Past<br>
+            First Shift<br>
+            Second Shift
+        </h2>
+
+    </div>
+
+    <div class="cropped-iframe-second-set">
+        <iframe scrolling="no" src="http://172.25.100.23/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+    </div>
+
+</body>
+</html>

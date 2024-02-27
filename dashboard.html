@@ -98,14 +98,35 @@
             height: 180px;
         }
 
-            .cropped-iframe-third-set iframe {
-                overflow: hidden;
-                width: 1200px;
-                height: 180px;
+                .cropped-iframe-third-set iframe {
+                    overflow: hidden;
+                    position: relative;
+                    max-width: 349px;
+                    margin: 5px auto;
+                    border: 2px solid #ccc;
+                    width: 650px;
+                height: 120px;
+            }
+        .cropped-iframe-fourth-set {
+            overflow: hidden;
+            position: relative;
+            max-width: 349px;
+            margin: 5px auto;
+            border: 2px solid #ccc;
+            width: 650px;
+            height: 120px;
+        }
+
+            .cropped-iframe-fourth-set iframe {
+                width: 650px;
+                height: 300px;
                 position: relative;
-                
+                top: 11%; /* Adjust to center the visible portion vertically */
+                left: 10%; /* Adjust to center the visible portion horizontally */
+                transform: translate(-50%, -60%); /* Center the visible portion */
                 border: none;
             }
+
     </style>
 </head>
 <body>
@@ -136,13 +157,13 @@
     </div>
 
     <div><h1>T23</h1> </div>
-    <div class="cropped-iframe">
-        <iframe scrolling="no" src="http://172.25.100.45/#!/view/scoreboard" frameborder="0"></iframe>
+    <div class="cropped-iframe-fourth-set">
+        <iframe scrolling="no" src="http://172.25.100.34/#!/view/scoreboard" frameborder="0"></iframe>
     </div>
 
 
     <div class="cropped-iframe-first-set">
-        <iframe scrolling="no" src="http://172.25.100.45/#!/analyze/tpt" frameborder="0"></iframe>
+        
     </div>
 
 
@@ -156,7 +177,7 @@
     </div>
 
     <div class="cropped-iframe-second-set">
-        <iframe scrolling="no" src="http://172.25.100.45/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+       
     </div>
 
 

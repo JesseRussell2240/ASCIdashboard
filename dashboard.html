@@ -8,7 +8,7 @@
     <style>
         body {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             gap: 10px;
             padding: 10px;
             text-align: center;
@@ -30,20 +30,20 @@
         .cropped-iframe {
             overflow: hidden;
             position: relative;
-            max-width: 349px;
+            max-width: 1500px;
             margin: 5px auto;
             border: 2px solid #ccc;
-            width: 650px;
-            height: 120px;
+            width: 1500px;
+            height: 250px;
         }
 
             .cropped-iframe iframe {
-                width: 650px;
-                height: 300px;
+                width: 1500px;
+                height: 250px;
                 position: relative;
-                top: 11%; /* Adjust to center the visible portion vertically */
-                left: 20%; /* Adjust to center the visible portion horizontally */
-                transform: translate(-42%, -50%); /* Center the visible portion */
+                top: 0%; /* Adjust to center the visible portion vertically */
+                left: 15%; /* Adjust to center the visible portion horizontally */
+                transform: translate(-0%, -0%); /* Center the visible portion */
                 border: none;
             }
 
@@ -71,213 +71,41 @@
         .cropped-iframe-second-set {
             overflow: hidden;
             position: relative;
-            max-width: 1200px;
+            max-width: 1500px;
             margin: 5px auto;
             border: 2px solid #ccc;
-            width: 150px;
-            height: 120px;
+            width: 1500px;
+            height: 350px;
         }
 
             .cropped-iframe-second-set iframe {
                 overflow: hidden;
-                width: 1200px;
+                width: 1500px;
                 height: 1200px;
                 position: relative;
-                top: 10%;
-                left: -225%;
-                transform: translate(-49%, -68%);
+                top: 100%;
+                left: 100%;
+                transform: translate(-100%, -55%);
                 border: none;
             }
-        .cropped-iframe-third-set {
-            overflow: hidden;
-            position: relative;
-            max-width: 1200px;
-            margin: 5px auto;
-            border: 2px solid #ccc;
-            width: 750px;
-            height: 180px;
-        }
 
-            .cropped-iframe-third-set iframe {
-                overflow: hidden;
-                width: 1200px;
-                height: 340px;
-                position: relative;
-               
-                border: none;
-            }
-        .cropped-iframe-fourth-set {
-            overflow: hidden;
-            position: relative;
-            max-width: 349px;
-            margin: 5px auto;
-            border: 2px solid #ccc;
-            width: 650px;
-            height: 120px;
-        }
 
-            .cropped-iframe-fourth-set iframe {
-                width: 650px;
-                height: 300px;
-                position: relative;
-                top: 11%; /* Adjust to center the visible portion vertically */
-                left: 10%; /* Adjust to center the visible portion horizontally */
-                transform: translate(-50%, -60%); /* Center the visible portion */
-                border: none;
-            }
 
     </style>
 </head>
 <body>
 
-    <div><h1>F12</h1></div>
-
-    <div class="cropped-iframe">
-        <iframe scrolling="no" src="http://172.25.100.80/#!/view/scoreboard" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-first-set">
-        <iframe scrolling="no" src="http://172.25.100.80/#!/analyze/tpt" frameborder="0"></iframe>
-    </div>
-
-
+   
     <div class="cropped-iframe-second-set">
-        <h2>
-            Past<br>
-            First Shift<br>
-            Second Shift
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-        <iframe scrolling="no" src="http://172.25.100.80/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
-    </div>
-
-    <div><h1>T23</h1> </div>
-    <div class="cropped-iframe-fourth-set">
-        <iframe scrolling="no" src="http://172.25.100.34/#!/view/scoreboard" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-first-set">
-        
-    </div>
-
-
-    <div class="cropped-iframe-second-set">
-        <h2>
-            Past<br>
-            First Shift<br>
-            Second Shift
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-       
-    </div>
-
-
-    <div><h1>IB16</h1> </div>
-    <div class="cropped-iframe">
-        <iframe scrolling="no" src="http://172.25.100.86/#!/view/scoreboard" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-first-set">
-        <iframe scrolling="no" src="http://172.25.100.86/#!/analyze/tpt" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-second-set">
-        <h2>
-            Past<br>
-            First Shift<br>
-            Second Shift
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-        <iframe scrolling="no" src="http://172.25.100.86/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
-    </div>
-
-
-
-    
-    <div><h1>CA76</h1> </div>
-    <div class="cropped-iframe">
-        <iframe scrolling="no" src="http://172.25.100.6/#!/view/scoreboard" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-first-set">
-        <iframe scrolling="no" src="http://172.25.100.06/#!/analyze/tpt" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-second-set">
-        <h2>
-            Past<br>
-            First Shift<br>
-            Second Shift
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-        <iframe scrolling="no" src="http://172.25.100.06/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
+        <iframe scrolling="no" src="http://172.25.100.34/#!/view/dashboards/shared/front-office-livestream" frameborder="0"></iframe>
     </div>
 
     
-    <div><h1>IB 9-12</h1> </div>
-    <div class="cropped-iframe">
-        
+     <div class="cropped-iframe">
+        <iframe scrolling="no" src="http://172.25.100.100/usr/viewon/Count.shtm" frameborder="0"></iframe>
     </div>
 
 
-    <div class="cropped-iframe-third-set">
-        <iframe scrolling="no" src="http://172.25.100.100/usr/viewon/IB11.shtm" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-second-set">
-        <h2>
-          
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-        
-    </div>
-
-    
-        <div><h1>Tips</h1> </div>
-    <div class="cropped-iframe">
-        <iframe scrolling="no" src="http://172.25.100.23/#!/view/scoreboard" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-first-set">
-        <iframe scrolling="no" src="http://172.25.100.23/#!/analyze/tpt" frameborder="0"></iframe>
-    </div>
-
-
-    <div class="cropped-iframe-second-set">
-        <h2>
-            Past<br>
-            First Shift<br>
-            Second Shift
-        </h2>
-
-    </div>
-
-    <div class="cropped-iframe-second-set">
-        <iframe scrolling="no" src="http://172.25.100.23/#!/analyze/trended-kpis/overview" frameborder="0"></iframe>
-    </div>
-
+   
 </body>
 </html>
